@@ -1,3 +1,7 @@
 # Web Dev Homework 1
 
-This is the first message showing that I have initialized a repository and pushed the first updates using SSH.
+### Hello! This webpage is hosted [here](https://fiftekhar.github.io/WebDevHW1/).
+
+### This is the same link: https://fiftekhar.github.io/WebDevHW1/
+
+Enjoy our page!
