@@ -1,3 +1,12 @@
 body {
     background-color: lightblue;
 }
+
+.Pics-Buttons {
+    border: 1px solid black;
+}
+
+.links {
+    display: inline-block;
+    max-width: 500px;
+}
