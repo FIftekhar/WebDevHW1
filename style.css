@@ -2,6 +2,10 @@ body {
     background-color: lightblue;
 }
 
+.Center-heading {
+    border: 1px solid red;
+}
+
 .Pics-Buttons {
     border: 1px solid black;
 }
@@ -9,4 +13,11 @@ body {
 .links {
     display: inline-block;
     max-width: 500px;
+    border: 1px solid green;
+}
+
+#fatin-link-btn {
+    display: inline-block;
+    align-items: center;
+    border: 1px solid blue;
 }
