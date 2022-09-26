@@ -4,21 +4,20 @@ body {
 
 .Center-heading {
     border: 1px solid red;
+    vertical-align: center;
+    text-align: center;
 }
 
-.Pics-Buttons {
+.main-links {
+    display: flex;
     border: 1px solid black;
-    max-width: 50%;
+    padding: 0.1rem 0.1rem;
+    text-align: center;
 }
 
-.links {
-    display: inline-block;
-    max-width: 500px;
-    border: 1px solid green;
-}
-
-#fatin-link-btn {
-    display: inline-block;
-    align-items: center;
-    border: 1px solid blue;
+.sub-links {
+    /* display: inline-block;  */
+    border: 1px solid red;
+    padding: 0.1rem 0.1rem;
+    vertical-align: middle;
 }
