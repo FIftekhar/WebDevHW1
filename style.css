@@ -1,23 +1,20 @@
 body {
-    background-color: lightblue;
+    background-color: #111;
 }
 
 .Center-heading {
-    border: 1px solid red;
     vertical-align: center;
     text-align: center;
+    color: white;
 }
 
 .main-links {
     display: flex;
-    border: 1px solid black;
     padding: 0.1rem 0.1rem;
     text-align: center;
 }
 
 .sub-links {
-    /* display: inline-block;  */
-    border: 1px solid red;
     padding: 0.1rem 0.1rem;
     vertical-align: middle;
 }
