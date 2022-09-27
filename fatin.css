@@ -94,7 +94,7 @@ body {
     color: white;
 }
 
-.card-half {
+.bio-card-half {
     border: 1px solid #1c87c9;
     max-width: 50%;
     vertical-align: middle;
@@ -105,4 +105,9 @@ body {
     margin-top: 10px;
     text-align: center;
     color: white;
+}
+
+#car-table {
+    color: white;
+    border: 1px solid #1c87c9;
 }
