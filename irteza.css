@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+.heading-bar {
+    border: 1px solid rgb(0, 183, 255);
+    height: fit-content;
+    padding: 10px;
+}
+.item {
+    border: 1px solid rgb(0, 183, 255);
+    list-style-type: none;
+    overflow: hidden;
+    float: center;
+    display: block;
+    padding: 10px;
+    
+}
+.item a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
