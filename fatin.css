@@ -1,0 +1,113 @@
+body {
+    background-color: #111;
+}
+
+.nav-bar {
+    border: 1px solid #1c87c9;
+}
+
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #1c87c9;
+    border: 1px solid #1c87c9;
+}
+
+.nav-item a:hover {
+    background-color: lightgreen;
+    color: black;
+    border: 1px solid lightgreen;
+}
+
+#title {
+    color: #1c87c9;
+    border: 1px solid #1c87c9;
+    text-align: center;
+}
+
+#color-btn {
+    text-align: center;
+    border: 1px solid #1c87c9;
+}
+
+.change-color {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#green-btn {
+    border: 2px solid lightgreen;
+}
+
+#blue-btn {
+    border: 2px solid #1c87c9;
+}
+
+#green-btn:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+#blue-btn:hover {
+    background-color: #1c87c9;
+    color: white;
+}
+
+.bio-card {
+    border: 1px solid #1c87c9;
+    padding: 10px;
+    display: flex;
+}
+
+.card-title {
+    padding: 10px;
+    color: #1c87c9;
+}
+
+.card-text {
+    padding: 10px;
+    color: white;
+}
+
+.bio-card-half {
+    border: 1px solid #1c87c9;
+    max-width: 50%;
+    vertical-align: middle;
+}
+
+#bachalpsee {
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+#car-table {
+    color: white;
+    border: 1px solid #1c87c9;
+}
