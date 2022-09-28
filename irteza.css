@@ -23,8 +23,10 @@ body {
 .title {
     float: center;
     color: aliceblue;
+    text-decoration: underline;
 }
 
 .about-me {
     color: aliceblue;
 } 
+
