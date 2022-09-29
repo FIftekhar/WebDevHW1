@@ -13,6 +13,7 @@ body {
     float: center;
     display: block;
     padding: 10px;
+    text-align: center;
     
 }
 .item a{
@@ -24,6 +25,7 @@ body {
     float: center;
     color: aliceblue;
     text-decoration: underline;
+    text-align: center;
 }
 
 .about-me {
