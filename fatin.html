@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatin Iftekhar</title>
     <link rel="stylesheet" href="fatin.css">
+    
 </head>
 <body>
-    
+    <script src="fatin.js"></script>
+
     <div class="nav-bar">
         <ul id="nav-list">
-            <li class="nav-item"><a href="index.html">Home</a></li>
-            <li class="nav-item"><a class="active" href="fatin.html">Fatin Iftekhar</a></li>
-            <li class="nav-item"><a href="irteza.html">Irteza Ali</a></li>
+            <li class="nav-item"><a id="nav-item-1" href="index.html">Home</a></li>
+            <li class="nav-item"><a id="nav-item-2" class="active" href="fatin.html">Fatin Iftekhar</a></li>
+            <li class="nav-item"><a id="nav-item-3" href="irteza.html">Irteza Ali</a></li>
         </ul>
     </div>
 
@@ -22,14 +24,14 @@
     </div>
 
     <div id="color-btn">
-        <button type="button" class="change-color" id="green-btn">I Prefer Green!</button>
-        <button type="button" class="change-color" id="blue-btn">I Prefer Blue!</button>
+        <button type="button" class="change-color" id="green-btn" onclick="changeToGreen()">I Prefer Green!</button>
+        <button type="button" class="change-color" id="blue-btn" onclick="changeToBlue()">I Prefer Blue!</button>
     </div>
 
     <div class="bio-card">
         <div class="bio-card-half">
-            <h3 class="card-title">$ whoami</h3>
-            <p class="card-text">
+            <h3 id="whoami" class="card-title">$ whoami</h3>
+            <p id="whoami-text" class="card-text">
                 > Loading...<br>
                 > ... <br>
                 > ... <br>
@@ -42,12 +44,12 @@
                 > Origin: Bangladesh
             </p>
 
-            <h3 class="card-title">
+            <h3 id="interests" class="card-title">
                 $ cd ~/fatin
                 <br>
                 $ cat interests.txt
             </h3>
-            <p class="card-text">
+            <p id="interests-text" class="card-text">
                 >
                 <br><br>
                 While I have spent my higher education career learning computer science,
@@ -65,21 +67,21 @@
                 views and high speeds on two wheels.
             </p>
 
-            <h3 class="card-title">
+            <h3 id="fam-cars" class="card-title">
                 $ cd /family/cars <br>
                 $ ls 
             </h3>
-            <p class="card-text">
+            <p id="fam-cars-text" class="card-text">
                 > car.table <br>
                 > car1_info.txt <br>
                 > car2_info.txt <br>
             </p>
 
-            <h3 class="card-title">
+            <h3 id="table-install" class="card-title">
                 $ sudo apt install fatin-private-table-file-opener <br>
                 $ Enter password: <br>
             </h3>
-            <p class="card-text">
+            <p id="download" class="card-text">
                 > Fetching packages... <br>
                 > Downloading data... (2 Mb) <br>
                 > ... <br>
@@ -92,7 +94,7 @@
                 > ...Done! <br>
             </p>
 
-            <h3 class="card-title">
+            <h3 id="open" class="card-title">
                 $ fatin-private-table-file-opener car.table <br>
             </h3>
             <table id="car-table" style="width: 100%">
@@ -116,7 +118,7 @@
                 </tr>
             </table>
             
-            <h3 class="card-title">$ exit</h3>
+            <h3 id="exit-text" class="card-title">$ exit</h3>
         </div>
         
         <div class="bio-card-half" id="bachalpsee">
