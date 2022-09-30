@@ -36,3 +36,14 @@ body {
     display: flex;
     padding: 10px;
 }
+
+.captions {
+    float: left;
+    display: flex;
+    padding: 150px;
+}
+
+#car-table {
+    color: white;
+    border: 1px solid rgb(0, 183, 255);
+}
